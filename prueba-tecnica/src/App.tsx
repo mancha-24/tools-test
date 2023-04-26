@@ -1,8 +1,14 @@
 import './App.css'
+import Menu from './main/components/Menu'
 
 function App () {
   return (
-    <h1>Prueba Tecnica</h1>
+  // <div className='container mx-auto z-0 h-full shadow-lg'>
+  //   <h1 className="text-6xl text-center text-white">
+  //     Prueba tecnica
+  //   </h1>
+  // </div>
+      <Menu />
   )
 }
 
